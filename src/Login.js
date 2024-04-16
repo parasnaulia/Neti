@@ -34,7 +34,7 @@ const Login = () => {
       if (toggle && ft === true) {
         // Only proceed if it's sign-up mode (toggle === true)
         try {
-          const response = await fetch(`${hosting}/registe`, {
+          const response = await fetch(`${hosting}/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(login), // Send login data in request body
