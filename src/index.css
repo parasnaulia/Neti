@@ -1,0 +1,499 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+  
+}
+.Header
+{
+  /* border: 2px solid black; */
+  /* background-color: black; */
+  /* background-color:black; */
+  background: linear-gradient(to right, #000000, #ffffff);
+  box-sizing: border-box;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  opacity: 0.7;
+  z-index: 1;
+  position: fixed;
+top:0;
+}
+
+.B-img
+{
+  height: 100%;
+
+  width: 100%;
+  position: fixed;
+  bottom: 1rem;
+  z-index: -1;
+  
+  
+}
+.LOGO
+{
+  opacity: 100;
+}
+.Form
+{
+  /* border:2px solid #ffffff; */
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  width: 30%;
+  margin-left: 43rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  opacity: 0.7;
+
+
+}
+.sign
+{
+  margin: 2rem 0rem;
+}
+.input-E 
+{
+  margin: 0.2rem 0.5rem;
+  padding: 1rem 0rem;
+}
+.input-E input
+{
+  padding:1rem 2rem;
+  width:100%
+}
+.btn-Sign
+{
+  background-color: red;
+  color: white;
+  padding: 0.8rem 0.8rem;
+  margin: 2rem auto;
+
+}
+.Sign-up
+{
+  color: white;
+  margin: 1rem 1rem;
+  font-size: medium;
+  z-index: 100;
+
+}
+.btn-S
+{
+  padding: 0.2rem 0.2rem;
+  margin: 0.3rem 1rem;
+  background-color: #262525;
+  color: wheat;
+}
+.Frame
+{
+  position: fixed;
+  top:0;
+  z-index: -18;
+}
+.Frame1
+{
+  height: 100%;;
+  width: 100%;
+}
+.Div_frame
+{
+  height: 110vh;
+  width: 100vw;
+  position: fixed;
+  bottom:5rem;
+  z-index: -1;
+}
+.Title1
+{
+  position:fixed;
+  top: 15rem;
+  left: 5rem;
+  color: rgb(250, 248, 248);
+  opacity: 0.6;
+  font-size: 2rem;
+  font-weight: bold;
+  /* border: 2px solid black; */
+  z-index: 20;
+  width: 20%;
+  height: 30%;
+   background: linear-gradient(to right, #000000, #383737);
+
+
+}
+
+.p
+{
+  /* font-weight: 2rem; */
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+  color: rgb(226, 227, 221);
+}
+.h2
+{
+  margin-top: 0.4rem;
+  color: #ffffff;
+
+}
+.h4
+{
+  margin-top: 0.4rem;
+
+}
+.Play
+{
+  background-color: rgb(227, 213, 213);
+  color: #1a1818;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0.2rem;
+  border-radius: 1rem;
+  z-index: 100;
+  opacity: 1;
+  cursor: pointer;
+}
+.Play:hover{
+  background-color: #ffffff;
+
+}
+.Pause
+{
+  background-color: rgb(231, 214, 214);
+  color: #1a1818;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0.2rem;
+  border-radius: 1rem;
+
+}
+.Pause:hover
+{
+  background-color: #ede4e4;
+}
+.MovieCont
+{
+  position: relative;
+  top:48rem;
+  background-color: #312d2d;
+  /* height: 25rem; */
+
+}
+.MovieCont
+{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* border: 1px solid black */
+  background-color: #000000;
+  color: #e8dfdf;
+  opacity: 12;
+  /* box-sizing: border-box; */
+  overflow-x:scroll;
+
+}
+.Movie-cart
+{
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid black;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.tt
+{
+  margin: auto
+}
+.MovieCart
+{
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+  /* overflow-x: scroll; */
+
+}
+.Cart-Container
+{
+  margin: 1rem 1rem;
+  color: #efe6e8;
+  font-size: 1rem;
+  /* margin-top: 2rem; */
+
+
+}
+.GPT-S
+{
+  margin-top: 10rem;
+  display:flex ;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.div-1
+{
+  /* border: 2px solid black; */
+  width: 40%;
+  height: 2.5rem;
+  margin: 2rem ;
+  
+}
+.s-input
+{
+  height: 2.5rem;
+  width: 91%;
+}
+.btn-1
+{
+  padding: 0.6rem 0.6rem;
+  /* margin: 0.2rem 0.2rem; */
+  background-color: #eb162c;
+  color: #ede4e4;
+}
+.div-2
+{
+  position: fixed;
+  z-index: -100;
+  height: 100%;
+  width: 100%;
+}
+.div-2 img
+{
+  height: 130vh;
+  width: 100vw;
+}
+.H-img
+{
+  display: flex;
+}
+.ham
+{
+  z-index: 100;
+  opacity: 1;
+  color: #e8dfdf;
+
+}
+.Gpt-btn
+{
+  color: white;
+  opacity: 1;
+  z-index: 10;
+}
+.Profile1
+{
+  color: rgb(239, 10, 10);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+}
+.Logout
+{
+  cursor: pointer;
+}
+.pro
+{
+  font-size: 1.5rem;
+  /* margin-right: 40rem; */
+  text-shadow: 1rem 1rem 0.1rem;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+/* Target the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+/* Handle portion of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #7f8c8d; /* Set the color of the thumb */
+  border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+/* Track (the area the thumb moves on) */
+::-webkit-scrollbar-track {
+  background-color: #131515; /* Set the color of the track */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #756d6d; /* Set a different color on hover */
+}
+
+.Header
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+.Gpt-btn
+{
+  margin-right: 12rem;
+  padding: 1rem 1rem;
+  background-color: #dc6c77;
+  text-decoration: none;
+
+  
+} 
+.gpt-div
+{
+  margin-top: 2rem;
+}
+.Gpt-btn:hover
+
+{
+  background-color: #eb162c;
+}
+.Cart-Container
+{
+  transition: transform 0.3s ease-in-out ;
+  cursor: pointer;
+  /* justify-content: center; */
+
+}
+.Cart-Container:hover
+{
+  transform: scale(1.2);
+}
+.Movie-Container
+{
+  z-index: 100;
+  /* background-color: #7f8c8d; */
+}
+.Gpt-cont
+{
+  transition-property: none;
+}
+.Gpt-cont div
+{
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+@media (max-width:1110px) {
+  .Form
+  {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 10rem;
+    width: 70%;
+  }
+  .gpt-div
+  {
+    /* display: flex; */
+
+    /* justify-content: flex-end; */
+    /* float: right; */
+    /* background-color: #000000; */
+    
+  
+    /* background-color: #1a1818; */
+    /* margin-bottom: 2rem; */
+    height: 7vh;
+    margin-top: 1rem;
+  }
+  .Gpt-btn
+  {
+    float: right;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    height: 100%;
+    background-color: #000000;
+    color:rgb(205, 18, 49);
+    
+   
+    /* background-color: #312d2d; */
+  }
+
+  
+}
+@media (max-width:1000px)
+{
+  .p
+  {
+    display: none;
+  }
+  .Title1{
+    font-size: 1rem;
+    /* position: relative; */
+    /* margin-right: 10rem;
+    ma */
+margin: auto;
+position: absolute;
+top: 30rem;
+left: 2rem;
+width: 40%;
+height: 15%;
+  }
+  .btn
+  {
+    display: flex;
+    
+    /* padding: 0rem 0rem; */
+
+
+  }
+.Frame1
+{
+  width: 100%;
+  /* height: 600px; */
+}
+.MovieCont
+{
+  /* position: fixed; */
+  top:25rem;
+}
+  .h2
+  {
+    font-size: 1rem;
+    
+  }
+  .div-1{
+    width: 60%;
+    margin:auto;
+    position: relative;
+  }
+  .btn-1
+  {
+    position: absolute;
+    
+  }
+  .Gpt-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    margin-right: 10rem;
+    color: white;
+  }
+
+  .Movie-cart
+{
+  width: 10rem;
+  height: 10rem;
+}
+ 
+}
+@media (max-width:1100px)
+{
+  .p
+  {
+    display: none;
+  }
+  
+}
