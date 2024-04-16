@@ -31,3 +31,4 @@ export const Api_liNK = [
     name: "Upcoming",
   },
 ];
+export const hosting = "https://netflix-clone-mu-teal.vercel.app";
